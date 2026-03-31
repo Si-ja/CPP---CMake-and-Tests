@@ -13,7 +13,7 @@ namespace FizzBuzzLib
         }
     }
 
-    std::string singleAnswer(int value)
+    std::string singleAnswer(const int& value)
     {
         std::string answer{};
         answer = (value % 3 == 0 ? answer.append("Fizz") : answer);

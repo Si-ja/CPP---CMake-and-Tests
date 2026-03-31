@@ -9,7 +9,7 @@ namespace FizzBuzzLib
     void printFizzBuzz(int startValue, int endValue);
 
     // Get representaton of a FizzBuzz for a single value.
-    std::string singleAnswer(int value);
+    std::string singleAnswer(const int& value);
 }
 
 #endif // FIZZBUZZWITHTESTS_H_INCLUDED
